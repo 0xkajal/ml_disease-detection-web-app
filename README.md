@@ -20,6 +20,7 @@ This Streamlit web app predicts Diabetes, Heart Disease, and Parkinson's Disease
 Run the Streamlit app:
 ```bash
 multiple_disease_prediction.py
+```
 
 LIVE DEMO STREAMLIT WEB APP
 
