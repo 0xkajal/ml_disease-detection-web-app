@@ -11,9 +11,9 @@ from streamlit_option_menu import option_menu
 
 # Load the saved models
 
-diabetes_model_path = r'C:\Users\Lenovo\Desktop\models_multiple disease prediction\diabetes_model_no_scaler.sav'
-heart_model_path = r'C:\Users\Lenovo\Desktop\multipe_disease_prediction\models_multiple disease prediction\heart_model.sav'
-parkinsons_model_path = r'C:\Users\Lenovo\Desktop\models_multiple disease prediction\parkinsons_model_no_scaler.sav'
+diabetes_model_path = r'diabetes_model_no_scaler.sav'
+heart_model_path = r'heart_model.sav'
+parkinsons_model_path = r'parkinsons_model_no_scaler.sav'
 
 with open(diabetes_model_path, 'rb') as file:
     diabetes_model = pickle.load(file)
